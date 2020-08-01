@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <title>
+            Creating pages sample projects
+        </title>
+        <style>
+            body{
+                margin:0;
+                padding:0;
+            }
+
+            #outer-page-border{
+                width:100%;
+                height:100%;
+                float:left;
+                
+            }
+            #web-name{
+                margin:0;
+                padding:0;
+                margin-top:150px;
+                color:#c3c3c3;
+                font-size:60px;
+                text-shadow:2px 2px 4px white;
+                text-align:center;
+            }
+
+            #header{
+                width:100%;
+                height:300px;
+                float:left;
+                background-image:url("backheader.jpg");
+            }
+
+            #navigator-menu{
+                width:100%;
+                height:50px;
+                float:left;
+                background-color:black;
+            }
+            ul{
+                list-style:none;
+                padding:0;
+                margin:0;
+                padding:10px;
+                box-sizing:border-box;
+            }
+            li{
+                display:inline-block;
+                color:white;
+                font-style:calibri;
+                font-size:15px;
+                font-weight:bold;
+                border:2px solid white;
+                padding:5px;
+                margin-left:15px;
+                background-color:#00a8f3;
+            }
+            #twitter-butt{
+                text-align:right;
+            }
+            #fb-butt{
+                text-align:right;
+            }
+            #follow-us-butt{
+                text-align:right;
+            }
+            li:hover{
+                color:black;
+                background-color:#0eda48;
+                border:2px solid black;
+                transition:0.5s;
+                border-radius:20px;
+            }
+            #bkn{
+                width:150px;
+                background-color:#ff0000;
+            }
+            #bkn:hover{
+                background-color:#0ed145;
+            }
+            a{
+                color:white;
+                text-decoration: none;
+            }
+            a:hover{
+                color:black;
+            }
+
+            #section{
+                width:100%;
+                height:2000px;
+                float:left;
+                font-family:calibri;
+                border:1px solid green;
+                
+            }
+            #gallery-grid{
+                width:95%;
+                height:480px;
+                margin:0 auto;
+                overflow: hidden;
+                box-shadow: 0px 4px 8px #323232;
+                background-color:black;
+            }
+            #slider{
+                width:6400px;
+                height:480px;
+                animation-name:ops;
+                animation-duration: 40s;
+                animation-iteration-count:infinite;
+                position:relative;
+            }
+            img{
+                float:left;
+            }
+            @keyframes ops{
+                0%{top:0;left:0px;}
+                5%{top:0;left:0px;}
+                10%{top:0;left:-1280px;}
+                
+                20%{top:0;left:-1280px;}
+                
+                30%{top:0;left:-2560px;}
+                
+                40%{top:0;left:-2560px;}
+                
+                50%{top:0;left:-3840px;}
+                
+                60%{top:0;left:-3840px;}
+            
+                70%{top:0;left:-5120px;}
+                
+                80%{top:0;left:-5120px;}
+                
+                90%{top:0;left:-6400px;}
+                100%{top:0;left:-6400px;}
+                
+                
+            }
+            
+            #cards-section{
+                width:100%;
+                height:560px;
+                float:left;
+                
+                margin-top:10px;
+            }
+            #cards-border{
+                width:95%;
+                height:550px;
+                margin:0 auto;
+                
+                
+            }
+            #cards{
+                width:22%;
+                height:250px;
+                float:left;
+                margin:10px;
+                margin-left:22px;
+                margin-top:12px;
+                background-color:white;
+                box-shadow:0px 5px 10px #c3c3c3;
+            }
+
+
+            #details{
+                width:100%;
+                height:500px;
+                
+            }
+
+            #card-ref{
+                position:relative;
+                font-size: large;
+                color:cornflowerblue;
+                text-align:right;
+                font-family:calibri;
+                text-decoration:none;
+            }
+
+            #footer{
+                width:100%;
+                height:40px;
+                float:left;
+                background-color:black;
+                color:white;
+                text-align:right;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="outer-page-border">
+            <div id="header">
+                <h1 id="web-name">Top Tip Hotels.com</h1>
+            </div>
+            <div id="navigator-menu">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">GALLARIES</a></li>
+                    <li><a href="#">HOTELS</a></li>
+                    <li><a href="#">LOCATIONS</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li id="bkn"><a href="#">Book Hotel Now</a></li>
+                </ul>
+            </div>
+            <div id="section">
+                <div id="gallery-grid">
+                    <div id="slider">
+                        <img src="slider/1.jpg" alt="" width="1280px" height="480px">
+                        <img src="slider/2.jpg" alt="" width="1280px" height="480px">
+                        <img src="slider/3.png" alt="" width="1280px" height="480px">
+                        <img src="slider/4.jpg" alt="" width="1280px" height="480px">
+                        <img src="slider/5.jpg" alt="" width="1280px" height="480px">
+                    </div>
+                </div>
+                <div id="cards-section">
+                    <div id="cards-border">
+                        <div id="cards">
+                            <div>
+                                <img src="photos/1.jpg" alt="" width="100%" height="150px"> 
+                            </div>
+                            the barren gates<br>
+                            <a id="card-ref" href="#" >read more</a>
+                        </div>
+                        <div id="cards">
+                            <div>
+                                <img src="photos/2.jpg" alt="" width="100%" height="150px"> 
+                            </div>
+                            the barren gates<br>
+                            <a id="card-ref" href="#" >read more</a>
+                        </div>
+                        <div id="cards">
+                            <div>
+                                <img src="photos/3.jpg" alt="" width="100%" height="150px"> 
+                            </div>
+                            the barren gates<br>
+                            <a id="card-ref" href="#" >read more</a>
+                        </div>
+                        <div id="cards">
+                            <div>
+                                <img src="photos/4.jpg" alt="" width="100%" height="150px"> 
+                            </div>
+                            the barren gates<br>
+                            <a id="card-ref" href="#" >read more</a>
+                        </div>
+                        <div id="cards">
+                            <div>
+                                <img src="photos/5.jpg" alt="" width="100%" height="150px"> 
+                            </div>
+                            the barren gates<br>
+                            <a id="card-ref" href="#" >read more</a>
+                        </div>
+                        <div id="cards">
+                            <div>
+                                <img src="photos/6.jpg" alt="" width="100%" height="150px"> 
+                            </div>
+                            the barren gates<br>
+                            <a id="card-ref" href="#" >read more</a>
+                        </div>
+                        <div id="cards">
+                            <div>
+                                <img src="photos/7.jpg" alt="" width="100%" height="150px"> 
+                            </div>
+                            the barren gates<br>
+                            <a id="card-ref" href="#" >read more</a>
+                        </div>
+                        <div id="cards">
+                            <div>
+                                <img src="photos/8.jpg" alt="" width="100%" height="150px"> 
+                            </div>
+                            the barren gates<br>
+                            <a id="card-ref" href="#" >read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="details">
+                    <h1>The barrel agtes</h1>
+                </div>
+            </div>
+            
+            <div id="footer">
+                Designed by : Mohammed Ibrahim
+            </div>
+        </div>
+    </body>
+</html>
